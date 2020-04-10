@@ -1,0 +1,1 @@
+input();print(*sorted(map(int,__import__("sys").stdin)))
