@@ -4,7 +4,7 @@ ans = []
 nolis = dict()
 for i in range(n):
     name = sys.stdin.readline().rstrip()
-    nolis[hash(name)]=name
+    nolis[hash(name)]=None
 for j in range(m):
     name = sys.stdin.readline().rstrip()
     if hash(name) in nolis:
