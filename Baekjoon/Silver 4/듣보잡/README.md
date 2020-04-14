@@ -16,3 +16,4 @@ print(len(ans))
 for i in ans:
     print(i)
 ```
+set으로 푸는 방법다음으로 메모리를 적게 먹는다. 33920 vs 33992
